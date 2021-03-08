@@ -1,0 +1,39 @@
+.wrapper {
+
+	
+}
+
+
+.image-slider {
+	padding: 120px 0 0 0;
+
+}
+
+.image_slider__wrapper{
+
+}
+
+.image_slider__slide{
+
+}
+
+.image-slider__image{
+	text-align: center;
+}
+
+.image-slider__image img {
+	width: 100%;
+	
+}
+
+.image-slider ,swiper-pagination{
+	bottom: 0px;
+
+}
+
+.image-slider .swiper-pagination-bullet{
+	width: 10px;
+	height: 10px;
+	
+	background-color: black;
+}

@@ -1,0 +1,258 @@
+ 
+
+
+	.kategorii{
+		
+		float: left;
+		display:block;
+		width: 1336px;
+		height: 320px;
+		
+	}
+ .forma_kategoria{
+ 	width: 320px;
+ 	height: 240px;
+ 	margin-top: 30px;
+ 	
+ 	margin-left: 20px; 
+ 	
+ 	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+ }
+ .perchatki_kategoria {
+ 	width: 320px;
+ 	height: 240px;
+ 	margin-top: 30px;
+ 	margin-left: 155px;
+ 	
+ 	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+ }
+.kategoria_aksov{
+	width: 320px;
+	height: 240px;
+	margin-top: 30px;
+	margin-left: 155px;
+	
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+
+}
+
+.forma_kategoria:hover {
+	width: 330px;
+	height: 250px;
+	box-shadow: 3px 3px 3px 3px #b5b5b5;
+	margin-top: -10px;
+	margin-right: -10px;
+}
+
+.kategoria_aksov:hover {
+	width: 330px;
+	height: 250px;
+	box-shadow: 3px 3px 3px 3px #b5b5b5;
+	margin-right: -10px;
+	margin-top: -10px;
+	
+	}
+
+.perchatki_kategoria:hover {
+	width: 330px;
+	height: 250px;
+	box-shadow: 3px 3px 3px 3px #b5b5b5;
+	margin-top: -10px;
+	margin-right: -10px;
+}
+
+
+
+
+
+
+
+
+.vozvrat_obmen{
+  position:relative;
+  
+}
+
+.vozvrat_obmen img {
+ bottom: -100px;
+  position:absolute; /* абсолютное позиционирование*/
+  width: 150px;
+  height: auto;
+  border-radius: 140px 140px 140px 140px;
+  left: 100px;
+}
+
+.vozvrat_obmen img.first { /* первая картинка полностью прозрачная */
+  opacity:0;
+  filter:alpha (opacity=0);
+}
+
+.vozvrat_obmen:hover img.first { /* при наведении курсора первая картинка становится не прозрачной */
+  opacity:1;
+  filter:alpha (opacity=100);
+}
+
+.vozvrat_obmen:hover img.second, .vozvrat_obmen img.second:hover { /* а вторая при наведении курсора становится прозрачной */
+  opacity:0;
+  filter:alpha (opacity=0);
+}
+
+
+
+.dostavka{
+  position:relative;
+ 
+}
+
+.dostavka img {
+	bottom: -100px;
+	left: 400px;
+width: 130px;
+height: auto;
+  position:absolute; /* абсолютное позиционирование*/
+  border-radius: 500px 60px 130px 0;
+}
+
+
+.dostavka img.first { /* первая картинка полностью прозрачная */
+  opacity:0;
+  filter:alpha (opacity=0);
+}
+
+.dostavka:hover img.first { /* при наведении курсора первая картинка становится не прозрачной */
+  opacity:1;
+  filter:alpha (opacity=100);
+}
+
+.dostavka:hover img.second, .dostavka img.second:hover { /* а вторая при наведении курсора становится прозрачной */
+  opacity:0;
+  filter:alpha (opacity=0);
+}
+
+.rabota24{
+  position:relative;
+  
+                
+}
+
+.rabota24 img {
+	bottom: -100px;
+	
+  position:absolute; /* абсолютное позиционирование*/
+ width: 120px;
+	height: auto;
+	border-radius: 500px;
+	left: 780px;
+}
+
+.rabota24 img.first { /* первая картинка полностью прозрачная */
+  opacity:0;
+  filter:alpha (opacity=0);
+}
+
+.rabota24:hover img.first { /* при наведении курсора первая картинка становится не прозрачной */
+  opacity:1;
+  filter:alpha (opacity=100);
+}
+
+.rabota24:hover img.second, .rabota24 img.second:hover { /* а вторая при наведении курсора становится прозрачной */
+  opacity:0;
+  filter:alpha (opacity=0);
+}
+.kachestvo{
+  position:relative;
+ left: 1090px;
+  width:100px; /* Ширина */
+  height: auto; /* Высота */                
+
+}
+
+.kachestvo img {
+	bottom: -100px;
+  position:absolute; /* абсолютное позиционирование*/
+  	width: 120px;
+	height: auto;
+	border-radius: 500px 500px 500px 500px;
+}
+
+.kachestvo img.first { /* первая картинка полностью прозрачная */
+  opacity:0;
+  filter:alpha (opacity=0);
+}
+
+.kachestvo:hover img.first { /* при наведении курсора первая картинка становится не прозрачной */
+  opacity:1;
+  filter:alpha (opacity=100);
+}
+
+.kachestvo:hover img.second, .kachestvo img.second:hover { /* а вторая при наведении курсора становится прозрачной */
+  opacity:0;
+  filter:alpha (opacity=0);
+}
+
+.obmen{
+	position: absolute;
+	display: block;
+	left: 118px;
+	bottom: -150px;
+	
+}
+.dostavkaa_text{
+	position: absolute;
+	display: block;
+	left: 405px;
+	bottom: -150px;
+	
+}
+.rabotaa24{
+	position: absolute;
+	display: inline-block;
+	left: 793px;
+	bottom: -150px;
+	
+}
+
+.kachestvoo{
+	position: absolute;
+	display: block;
+	left: 33px;
+	bottom: -150px;
+}
+
+
+
+
+.opisanie{
+	margin-top: 200px;
+	
+	width: 1320px;
+	padding-left: 20px;
+}
+.zagolovok1{
+ 	
+ font-weight: bold;
+ color: gray;
+ line-height: 2;
+ font-size: 20px;
+} 
+.text1{
+	line-height: 1.5;
+	 	text-align:justify;
+	color: gray;
+	font-family: "Monotype Corsiva" Cursive;
+}
+.text2{
+		text-align:justify;
+	color: gray;
+	font-family: "Monotype Corsiva" Cursive;
+}
+
+.podval{
+	background: black;
+}

@@ -1,0 +1,82 @@
+.shapka{
+	background-color: black;
+	padding top: 0;
+	padding left: 0;
+	padding-right: 0;
+	padding-bottom: 0px;
+}
+.logotip{}
+.pramoygolnik_poisk{
+	position: absolute;
+	 left: 310px;
+	top: 25px;
+	font-size:10px;
+	
+}
+
+.vhod_v_akk{
+	position: absolute;
+	left: 865px;
+	top:15px;
+	}
+.izbrannoe{
+	position: absolute;
+	left: 920px;
+	top:15px;
+}
+.korzina{
+	position: absolute;
+	left: 980px;
+	top: 15px;
+}
+
+.nomer_telefona{
+	position: absolute;
+	left: 1190px;
+	top: 0px;
+	color: white;
+}
+.zakaz_24{
+	position: absolute;
+	left: 1180px;
+	top:20px;
+	color: white;
+}
+
+
+
+.block3{}
+
+.internet_magazin{
+	position: absolute;
+  display: block;
+  font-size: 30px;
+  left:20px;
+  top: 105px;
+  
+
+}
+.football{
+	display: inline;
+ position: absolute;
+ font-size: 30px;
+ left: 18px;
+ top: 135px;
+ 
+}
+.skidki{
+	display: inline;
+	position: absolute;
+	font-size: 20px;
+	top: 170px;
+	left: 18px;
+}
+.img{ 
+	position: absolute;
+	right: 	35px;
+	top: 120px;
+
+}
+
+                                    
+                                    
